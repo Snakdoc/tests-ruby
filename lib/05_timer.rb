@@ -1,6 +1,4 @@
-def time_string
-  return time_string.strftime("%k:%M:%S")
+def time_string (t)
+  Time.at(int).utc.strftime("%H:%M:%S")
 
 end
-
-puts "#{time_string(12)}"

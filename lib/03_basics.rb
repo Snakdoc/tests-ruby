@@ -9,12 +9,12 @@ def reverse_upcase_noLTA(str)
 
 end
 
-def array_42
-  return [1, 2, 3, 4, 5, 6, 7 , 8, 9, 10].member? 42
+def array_42(array)
+  array.include?(42)
 end
 
-def magic_array
-  return array.sorted.flatten.map{|e| e*2 : e)
+def magic_array (a)
+  a.sorted.f
 
 
 end
